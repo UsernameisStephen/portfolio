@@ -1,4 +1,5 @@
 * {
+    text-decoration: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,50 +8,60 @@
   body {
     font-family: Arial;
     margin: 0;
+    background-color:#9ac2d4;
   }
   
   header {
-    padding: 40px;
-    text-align: center;
+    /* padding: 40px; */
+    /* text-align: center; */
     background: #0b95d4;
     color: #fff;
+    width: 100%;
+    height: 100px;
   }
 
-  ul {
-      
+  header .header-logo {
+      font-family: Merriweather; 
+      font-size: 24px;
+      font-weight: 900;
+      color: #111;
+      display: block;
+      margin:auto;
+      text align:center;
+      padding:
+  }
+
+
+
+  header nav ul {
+      margin:auto;
+      display:block;
+      width: fit-content;
   }
   
-  ul li  {
+  header nav ul li  {
      list-style:none;
      display: inline-block;
      line-height: 100px;
   }
 
 
-  ul li a{
-      text-decoration: none;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      color: black;
-      padding: 0 20px;
+  header nav ul li a{
+    font-family: Merriweather; 
+    font-size: 18px;
+    color: #111;
+    padding: 0 16px;
   }
 
-  ul li a:hover{
+  header .header-cases{
+    display:none;
+  }
+
+
+  header ul li a:hover{
      color:rgb(149, 241, 10)
   }
 
-  nav {
-    width: 100%; 
-    height: 100px;
-    display: flex;
-    background-color:#0b95d4;
-  }
-  
-  nav a {
-    color: #0477b9;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
   
   /* use for contribution https://www.youtube.com/watch?v=mFgltjfVV6A */
   
@@ -58,6 +69,42 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .index-banner{
+      width: 100%;
+      height: 100vh;
+      /* height: calc (100vh - 100px); */
+      background-image: url(./images/stephen-elliott-portfolio.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: table;
+  }
+
+  .centering {
+      display: table-cell;
+      vertical-align: middle;
+  }
+
+  .index-banner h1 {
+      font-size: 50px;
+      font-family: Merriweather; 
+      font-weight: 900;
+      color:#fff;
+      text-shadow: 2px 2px 8px #111;
+      text-align: center;
+      line height: 90px;
+  }
+  
+  .index-banner h2 {
+    font-size: 22px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-weight: 180;
+    color:#fff;
+    text-shadow: 2px 2px 8px #111;
+    text-align: center;
+}
+
 
   footer {
     padding: 20px;
