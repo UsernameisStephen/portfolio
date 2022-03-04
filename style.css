@@ -27,8 +27,7 @@
       color: #111;
       display: block;
       margin:auto;
-      text align:center;
-      padding:
+      text-align:center;
   }
 
 
@@ -59,7 +58,7 @@
 
 
   header ul li a:hover{
-     color:rgb(149, 241, 10)
+     color:rgb(149, 241, 10);
   }
 
   
@@ -92,7 +91,7 @@
       color:#fff;
       text-shadow: 2px 2px 8px #111;
       text-align: center;
-      line height: 90px;
+      line-height: 90px;
   }
   
   .index-banner h2 {
