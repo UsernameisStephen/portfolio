@@ -22,6 +22,15 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Link to Final Page
 
 
+https://usernameisstephen.github.io/portfolio/
+
+
+Screen Shot of Website
+
+
+![image](https://user-images.githubusercontent.com/100049940/156704855-e5041554-cb53-440b-adec-81189b64b186.png)
+
+
 Contributions
 
 
