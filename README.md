@@ -3,6 +3,8 @@ Stephen Elliott Portfolio
 
 
 Objectives
+
+
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -21,5 +23,7 @@ Link to Final Page
 
 
 Contributions
+
+
 https://www.w3schools.com/css/default.asp
 https://www.youtube.com/watch?v=kbLfWKGVsMQ
